@@ -1,20 +1,45 @@
 <html>
 <head>
-<title>New Biginng</title>
+<title>New Beginning</title>
 
 <style>
   h1 {
 font-size: 30px;
 text-align: center;
-font-style: lucida handwriting;
+font-family: lucida handwriting;
+color: black;
   }
+
+body { background-image: url("yellowbackground.jpg");
+	display: grid;
+	grid-template-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-column: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.myDiv {
+ border: 7px #000000 solid;
+ background-color: yelloe;
+ text-align: center
+ grid-row-start: 2;
+ grid-row-end: 3;
+ grid-column-start: 1;
+ grid-column-end: 2;
+ }
+
+
 </style>
 
 
 
   
 </head>  
+<body> 
+<h1>This is a New beginning</h1>
 
+<div class="myDiv"><h2>This is an improvement compared to my first new beginning I hope you enjoy it!</h2></div>
+
+
+</body>
 
 
 
